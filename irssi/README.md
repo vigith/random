@@ -8,7 +8,7 @@ The orginal code was taken from http://scripts.irssi.org/ and was slightly modif
 Loading Scripts
 ---------------
 
-1. Download the code as nickcolor.pl
+1. Download the code as nickcolor.pl (https://raw.github.com/vigith/random/master/irssi/nickcolor.pl)
 2. move to ~/.irssi/scripts/ or /usr/local/lib/irssi/scripts/ (for system wide use)
 3. /SCRIPT LOAD nickcolor
 4. if you want to unload /SCRIPT UNLOAD nickcolor 
@@ -30,7 +30,7 @@ Supported Commands
 
 **_/color preview_** lists all the available colors
 
-**_/color set <nick> <int>_** sets the color
+**_/color set nick int_** sets the color (please replace nick with the nick of the user and int with a value >2 and <=28)
 
 **_/color save_** saves the color
 
@@ -38,3 +38,14 @@ Supported Commands
 
 **_/color clear_ <nick>** will clear the saved color for the nick
 
+Not Working?
+------------
+
+Run **/load** on your irssi window and check whether perl is listed in loaded modules. If not, you need to use a irssi compiled with perl. More Info: http://www.irssi.org/documentation/perl
+
+if you think there is a bug, please feel free to open a bug or give a pull request.
+
+TODO
+----
+1. more options by using smart backgroud coloring
+2. underlining to be used with colors to increase the option?
