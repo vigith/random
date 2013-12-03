@@ -38,3 +38,9 @@ Supported Commands
 
 **_/color clear_ <nick>** will clear the saved color for the nick
 
+Not Working?
+------------
+
+Run **/load** on your irssi window and check whether perl is listed in loaded modules. If not, you need to use a irssi compiled with perl. More Info: http://www.irssi.org/documentation/perl
+
+if you think there is a bug, please feel free to open a bug.
