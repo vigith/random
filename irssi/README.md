@@ -30,7 +30,7 @@ Supported Commands
 
 **_/color preview_** lists all the available colors
 
-**_/color set <nick> <int>_** sets the color
+**_/color set nick int** sets the color (please replace nick with the nick of the user and int with a value >2 and <=28)
 
 **_/color save_** saves the color
 
