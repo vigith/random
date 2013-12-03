@@ -30,7 +30,7 @@ Supported Commands
 
 **_/color preview_** lists all the available colors
 
-**_/color set nick int** sets the color (please replace nick with the nick of the user and int with a value >2 and <=28)
+**_/color set nick int_** sets the color (please replace nick with the nick of the user and int with a value >2 and <=28)
 
 **_/color save_** saves the color
 
@@ -43,7 +43,7 @@ Not Working?
 
 Run **/load** on your irssi window and check whether perl is listed in loaded modules. If not, you need to use a irssi compiled with perl. More Info: http://www.irssi.org/documentation/perl
 
-if you think there is a bug, please feel free to open a bug.
+if you think there is a bug, please feel free to open a bug or give a pull request.
 
 TODO
 ----
