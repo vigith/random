@@ -44,3 +44,8 @@ Not Working?
 Run **/load** on your irssi window and check whether perl is listed in loaded modules. If not, you need to use a irssi compiled with perl. More Info: http://www.irssi.org/documentation/perl
 
 if you think there is a bug, please feel free to open a bug.
+
+TODO
+----
+1. more options by using smart backgroud coloring
+2. underlining to be used with colors to increase the option?
