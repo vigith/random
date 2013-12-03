@@ -8,7 +8,7 @@ The orginal code was taken from http://scripts.irssi.org/ and was slightly modif
 Loading Scripts
 ---------------
 
-1. Download the code as nickcolor.pl
+1. Download the code as nickcolor.pl (https://raw.github.com/vigith/random/master/irssi/nickcolor.pl)
 2. move to ~/.irssi/scripts/ or /usr/local/lib/irssi/scripts/ (for system wide use)
 3. /SCRIPT LOAD nickcolor
 4. if you want to unload /SCRIPT UNLOAD nickcolor 
