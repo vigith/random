@@ -5,13 +5,20 @@ Colors the nick in irssi; you can opt to set the color of nicks to what you pref
 
 The orginal code was taken from http://scripts.irssi.org/ and was slightly modified to add more colors by using reverse mode.
 
+The reason I had to patch was due to the limitation of only 11 colors in the orginal release, more members then colors started repeating. Now there are 24 color options.
+
 Loading Scripts
 ---------------
 
 1. Download the code as nickcolor.pl (https://raw.github.com/vigith/random/master/irssi/nickcolor.pl)
 2. move to ~/.irssi/scripts/ or /usr/local/lib/irssi/scripts/ (for system wide use)
 3. /SCRIPT LOAD nickcolor
-4. if you want to unload /SCRIPT UNLOAD nickcolor 
+4. Next msg in your irssi should be colored by now :-)
+
+
+if you want to **unload** the above script, execute _/SCRIPT UNLOAD nickcolor_
+
+**More info on LOAD from irssi doc**
 
 Scripts are run with /SCRIPT LOAD command, or the default /RUN alias.
 "/SCRIPT" shows list of running script, and /SCRIPT UNLOAD can unload
