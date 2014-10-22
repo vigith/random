@@ -43,7 +43,7 @@ Supported Commands
 
 **_/color list_** shows the saved colors
 
-**_/color clear_ <nick>** will clear the saved color for the nick
+**_/color clear_ nick** will clear the saved color for the nick
 
 Not Working?
 ------------
